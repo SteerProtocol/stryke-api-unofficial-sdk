@@ -1,17 +1,17 @@
-# @steer-finance/stryke-api-client
+# @steerprotocol/stryke-api-client
 
 TypeScript client for the Stryke API, generated using OpenAPI Generator.
 
 ## Installation
 
 ```bash
-npm install @steer-finance/stryke-api-client
+npm install @steerprotocol/stryke-api-client
 ```
 
 ## Usage
 
 ```typescript
-import { ExerciseApi } from '@steer-finance/stryke-api-client';
+import { ExerciseApi } from '@steerprotocol/stryke-api-client';
 
 // Initialize the API client
 const api = new ExerciseApi();

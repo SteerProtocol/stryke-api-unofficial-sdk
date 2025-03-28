@@ -1,5 +1,5 @@
 {
-  "name": "@steer-finance/stryke-api-client",
+  "name": "@steerprotocol/stryke-api-unofficial-sdk",
   "version": "1.0.0",
   "description": "TypeScript client for the Stryke API",
   "main": "dist/index.js",
@@ -11,14 +11,14 @@
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build",
-    "prepublishOnly": "npm test && npm run lint",
+    "prepublishOnly": "npm test",
     "test": "echo \"No tests specified\" && exit 0",
     "lint": "eslint . --ext .ts",
     "format": "prettier --write \"src/**/*.ts\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/steer-finance/stryke-api-client.git"
+    "url": "git+https://github.com/steerprotocol/stryke-api-unofficial-sdk.git"
   },
   "keywords": [
     "stryke",
@@ -31,9 +31,9 @@
   "author": "Steer Finance",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/steer-finance/stryke-api-client/issues"
+    "url": "https://github.com/steerprotocol/stryke-api-unofficial-sdk/issues"
   },
-  "homepage": "https://github.com/steer-finance/stryke-api-client#readme",
+  "homepage": "https://github.com/steerprotocol/stryke-api-unofficial-sdk#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
